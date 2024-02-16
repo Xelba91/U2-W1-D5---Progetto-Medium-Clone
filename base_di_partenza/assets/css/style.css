@@ -12,7 +12,8 @@ button {
   padding: 10px;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.5s ease; /*transizione per cambio colore quando si scende con lo scrol*/
+  transition: background-color 0.5s ease;
+  /*transizione per cambio colore quando si scende con lo scrol*/
 }
 #btnGetStarted {
   width: 101px;
@@ -21,6 +22,9 @@ button a {
   text-decoration: none;
   color: white;
   font-family: "Roboto";
+}
+.aside-btn a {
+  color: #191919;
 }
 
 .yellow {
@@ -41,7 +45,8 @@ nav {
   align-content: center;
   padding: 1em;
   border-bottom: 1px solid black;
-  transition: background-color 0.5s ease; /*transizione per cambio colore  quando si scende con lo scrol**/
+  transition: background-color 0.5s ease;
+  /*transizione per cambio colore  quando si scende con lo scrol**/
 }
 
 header nav ul {
@@ -266,6 +271,7 @@ article {
 aside {
   width: 350px;
   position: sticky;
+  /* per far rimanere attaccato quando si scrolla */
   margin: auto;
   top: 5em;
 }
