@@ -78,7 +78,7 @@ nav.scrolled button {
 h1 {
   font-family: "Spectral", serif;
   font-weight: 400;
-  font-size: 106px;
+  font-size: 110px;
   letter-spacing: -0.05em;
 }
 
@@ -95,7 +95,7 @@ h1 {
 }
 
 #hero-container #hero {
-  margin: 0 auto;
+  margin: 0 auto 0 160px;
 }
 
 #hero-container #hero p {
@@ -163,6 +163,9 @@ figcaption img {
   font-weight: 500;
   align-items: center;
 }
+.trendingNoNumber {
+  margin-top: 7px;
+}
 
 #trend1 img {
   border-radius: 50%;
@@ -187,7 +190,7 @@ figcaption img {
   justify-content: flex-start;
   align-items: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #trend-title img {
